@@ -94,7 +94,7 @@ let gerenciaRedesSociais = () => {
     }
 
   }
-  conssole.log(`A qtde de posts da rede social:${vetorRedesSociais[i].codigo} é ${conta}`)
+  console.log(`A qtde de posts da rede social:${vetorRedesSociais[i].codigo} é ${conta}`)
   // Exe3) o usuário informa informa o login do usuário, e o programa retorna quantos posts ele fez
   // Exe4) o programa retorna quantos posts foram feitos por cada usuário
 
