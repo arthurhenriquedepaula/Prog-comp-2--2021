@@ -83,6 +83,18 @@ let gerenciaRedesSociais = () => {
 
 
   // Exe2) o programa retorna quantos posts foram feitos em todas as redes sociais
+  
+  for(i=0; i<5; i++)
+  {
+      let conta =0 
+    for(let j=0;j<5;j++)
+    {
+        if(vetorRedesSociais[i].codigo == vetorUsuarios[j].codigoRedeSocial)
+        conta = conta + vetorUsuarios[i].qtdePosts
+    }
+
+  }
+  conssole.log(`A qtde de posts da rede social:${vetorRedesSociais[i].codigo} é ${conta}`)
   // Exe3) o usuário informa informa o login do usuário, e o programa retorna quantos posts ele fez
   // Exe4) o programa retorna quantos posts foram feitos por cada usuário
 
