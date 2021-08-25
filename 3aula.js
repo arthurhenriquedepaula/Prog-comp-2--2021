@@ -120,7 +120,7 @@ let gerenciaRedesSociais = () => {
     let achou = false // não achou
     for(let j=0;j<vetorUsuariosPosts.length;j++){ // verifica se o usuário já existe
     
-        if (vetorUsuarios[i].login == vetorUsuariosPosts[i].login){ // usuário já existe
+        if (vetorUsuarios[i].login == vetorUsuariosPosts[j].login){ // usuário já existe
             // soma a qtde de posts do usuário
             vetorUsuariosPosts[j].qtde = vetorUsuariosPosts[j].qtde + vetorUsuarios[i].qtdePosts
             achou = true
@@ -138,4 +138,3 @@ let gerenciaRedesSociais = () => {
 
 }
 
-}
